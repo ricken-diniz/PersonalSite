@@ -1,0 +1,12 @@
+.content{
+    border-top: solid 0.5px #d1d1e063;
+    padding-top: 20px;
+}
+.content h2{
+    margin-bottom: 20px;
+}
+.content-pre{
+    width: 100%;
+    white-space: pre-wrap;
+    text-align: justify;
+}

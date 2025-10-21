@@ -1,0 +1,10 @@
+#project-selector{
+    background-color: rgba(255, 255, 255, 0.253);
+    border-radius: 2px;
+    text-wrap: nowrap;
+}
+#project-selector:hover{
+    background-color: rgba(255, 255, 255, 0.075);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}

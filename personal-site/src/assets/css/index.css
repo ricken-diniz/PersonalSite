@@ -1,0 +1,52 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  font-family: "Source Sans 3", "Source Sans 3 Fallback";
+  line-height: 1.5;
+  font-weight: 400;
+  max-width: 100%;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-size:  1.2em;
+}
+h2{
+  font-size:  1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 1px;
+  font-family: "Raleway","Raleway Fallback";
+  line-height: 1.1;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: #fCfBfB;
+}
+
+a {
+  color: #fCfBfB;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #dCdBdB;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+

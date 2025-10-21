@@ -1,0 +1,39 @@
+.introduction{
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.introduction pre{
+    white-space: pre-wrap;
+    hyphens: auto;
+    overflow-wrap: break-all;
+}
+#buttons{
+    display: flex;
+    flex-direction: column;
+}
+#buttons li{
+    display: flex;
+}
+#buttons ul{
+    margin: 0 0 0 8px;
+    padding: 0 0 0 4px;
+    height: 100%;
+    border-left: solid 1px  #fCfBfB;
+}
+.linked-button{
+    font-size: 0.6em;
+    letter-spacing: .2em;
+    /* margin: 5px 10px; */
+}
+.linked-button:hover{
+    color: #dCdBdB;
+}
+.linked-button a{
+    transition: all 0.3s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

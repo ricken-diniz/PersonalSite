@@ -1,0 +1,46 @@
+.block pre{
+    text-align: justify;
+    white-space: pre-wrap;
+    hyphens: auto;
+    overflow-wrap: break-all;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+h5 p{
+    display: inline;
+    font-size: 0.9em;
+    margin-left: 5px;
+}
+.block h5{
+    text-align: start;
+    font-size: 0.7em;
+    margin-bottom: 8px;
+}
+.block{
+    display: flow-root;
+    margin-bottom: 20px;
+}
+.habilities{
+    font-size: 0.9em;
+    color: #d1d1e063;
+}
+.icon{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#icons-block {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.float-img {
+  margin: 0 1rem 1rem 0;  /* espaço entre imagem e texto */
+  max-width: 40%;         /* responsivo dentro do container */
+}
+.float-img.right { float: right; margin: 0 0 1rem 1rem; }
+.float-img.left { float: left; margin: 0 1rem 1rem 0; }
+.float-img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

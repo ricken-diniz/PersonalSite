@@ -1,0 +1,7 @@
+Hi you! I'm a Potiguar people, born in Caicó/RN in Brazil, but I lived in several cities in order to follow my mother during her professional formation.
+
+Since I was kid, I'm fascinated by the computer world, tinkering with PCs to format or adjust settings to play games with better performance. Futhermore, I always have been engaged in mathematics, being my favorite subject and inspiring me even more to continue in the computer science.
+
+I start my high school at Federal Institute of Rio Grande do Norte (IFRN), where I was formed in Internet Computing, a course where I learned the entire software life cycle, since at project and its engineering, to the development and deploy.
+
+For now, I'm focused in Deep Learn and Agent-based Systems, working with topics such as computer vision or natural language processing, and I'm studying in the Computer Science by Federal University of Campina Grande (UFCG).

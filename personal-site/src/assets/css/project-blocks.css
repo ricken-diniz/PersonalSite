@@ -1,0 +1,70 @@
+.projects-icons {   
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+
+.icon-p{
+    width: 9%;
+    aspect-ratio: 1 / 1;
+    border-radius: 3px;
+    background-color: #ffffff;
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+
+
+#chess{
+    opacity: 1;
+    --green: #16a34a;
+    --white: #ffffff;
+
+    /* 4 camadas, cada uma ocupa 50% x 50% da div e é posicionada num canto */
+    background:
+        /* topo-esquerda (verde) */
+        linear-gradient(var(--green) 0 0) 0 0 / 50% 50% no-repeat,
+        /* topo-direita (branco) */
+        linear-gradient(var(--white) 0 0) 100% 0 / 50% 50% no-repeat,
+        /* base-esquerda (branco) */
+        linear-gradient(var(--white) 0 0) 0 100% / 50% 50% no-repeat,
+        /* base-direita (verde) */
+        linear-gradient(var(--green) 0 0) 100% 100% / 50% 50% no-repeat;
+}
+
+#vozia{
+    background-image: url('../vozia.png');
+    background-size: 140%;
+    background-position: center;
+}
+
+#eto-calc{
+    background-image: url('../eTo.png');
+    background-size: 140%;
+    background-position: center;
+}
+
+#chatbot{
+    background-image: url('../nordestebot.png');
+    background-size: 110%;
+    background-position: center;
+}
+
+#autohouse{
+    background-image: url('../autohouse.png');
+    background-size: 120%;
+    background-position: center;
+}
+
+#xai{
+    background-image: url('../xai.png');
+    background-size: 120%;
+    background-position: center;
+}
+.icon-p:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}

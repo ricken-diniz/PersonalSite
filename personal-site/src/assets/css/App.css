@@ -1,0 +1,16 @@
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+#root {
+  padding: 0 2rem;
+  text-align: center;
+  overflow-x: hidden;
+}
+.container{
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  overflow-x: hidden;
+}

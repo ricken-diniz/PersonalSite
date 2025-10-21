@@ -1,0 +1,52 @@
+.square{
+    align-items: center;
+    justify-content: center;
+    width: 12.5%;
+    aspect-ratio: 1 / 1;
+    display: inline-block;
+    position: relative;
+}
+.white{
+    display: flex;
+    background-color: wheat;
+}
+.black{
+    display: flex;
+    background-color: sienna;   
+}
+#chessboard{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    margin-top: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.dot{
+    width: 60%;
+    aspect-ratio: 1 / 1;
+    border: 5px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    position: absolute;
+}
+
+#overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 10;
+}
+
+#game-settings{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}

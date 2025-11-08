@@ -13,7 +13,7 @@ import wB from '../../../../assets/chess_pieces/wB.png';
 import wN from '../../../../assets/chess_pieces/wN.png';
 import wR from '../../../../assets/chess_pieces/wR.png';
 import { io } from "socket.io-client"
-const socket = io('http://10.0.0.112:5001');
+const socket = io('http://10.229.34.5:5001');
 import { TriggerCContext } from '../FirstProjectsBlock';
 
 function Chess() {

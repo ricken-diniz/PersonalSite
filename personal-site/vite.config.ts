@@ -9,7 +9,7 @@ export default defineConfig({
 
     // 🔹 Garante que o HMR (hot reload) use o IP correto
     hmr: {
-      host: '10.102.70.5',
+      host: '10.229.34.5',
       protocol: 'ws',
       port: 8000,
     },

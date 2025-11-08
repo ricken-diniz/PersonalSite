@@ -21,7 +21,7 @@ def create_game_instance(gamemode):
     else:
         raise ValueError('Invalid game mode')
 
-socketio = SocketIO(cors_allowed_origins=["http://10.0.0.112:8000"])
+socketio = SocketIO(cors_allowed_origins=["http://172.18.0.1:8000", "http://10.229.34.5:8000"])
 rooms = {}
 games = {}
 users = []

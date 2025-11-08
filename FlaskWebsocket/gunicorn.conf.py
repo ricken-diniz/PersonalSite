@@ -9,7 +9,7 @@ workers = multiprocessing.cpu_count() * 2 + 1
 worker_class = 'eventlet'
 
 # Endereço e porta que o Gunicorn vai ouvir
-bind = '0.0.0.0:5001'
+bind = '10.229.34.5:5001'
 
 # Nome do processo
 proc_name = 'flask_socketio_app'
